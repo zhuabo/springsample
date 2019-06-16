@@ -14,8 +14,8 @@ public class Boot {
 //        fooService.insertFoo (new Foo());
 
         try {
-            fooService.getFoo("haha","wochao");
-//            fooService.updateFoo(new Foo());
+//            fooService.getFoo("haha","wochao");
+            fooService.updateFoo(new Foo());
         } catch (Exception e) {
             e.printStackTrace();
         }
